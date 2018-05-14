@@ -34,7 +34,3 @@ Additionally, this may be causes by a bandwidth that is too low.
 When the second type of result occurs, our algorithm performs more similarly to the original HMAC implementation.
 This type of result is generally undesirable, but is a component of both the Mocalclust R package and original HMAC algorithm as well.
 However, in cases where this *does* occur, our algorithm can still make use of multicore to process the top-level merge concurrently.
-
-#### To Do
-
-The Wiki is coming soon with some test case examples.
